@@ -16,7 +16,7 @@ body {
     position: absolute; height: 30vh; width: 85vw; margin: 5vw;
     bottom: 40vh;
     margin-left: 6.8vw;
-    background-image: url('assets/images/fundo.png');
+    background-image: url('/assets/images/fundo.png');
 }
 
 #largada {
