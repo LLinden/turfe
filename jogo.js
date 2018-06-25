@@ -234,7 +234,7 @@ function main() {
     apostacavalo = parseInt(document.getElementById('apostacavalo').value);
 
     // Toca música
-    var audio = new Audio('/assets/sound/rossinioverture.ogg');
+    var audio = new Audio('assets/sound/rossinioverture.ogg');
       audio.play();
 
     if (dinheiro < quantidade) {
