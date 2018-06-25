@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Turfe</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet"> 
+</head>
+
+<body>
+    <!-- Header -->
+    <div id='header'>
+            °º¤ø,¸¸,ø¤º°`°º¤ø,¸ TURFE ¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°
+    </div>
+
+    <!-- Tela do jogo e jogo -->
+    <canvas id='canvas'>
+        <script src="jogo.js" charset="utf-8"></script>
+    </canvas>
+
+    <!-- Largada e chegada -->
+    <div id='largada'></div>
+    <div id='chegada'></div>
+
+    <!-- Carrega cavalos -->
+    <div id='cavalo1'></div>
+    <div id='cavalo2'></div>
+    <div id='cavalo3'></div>
+    <div id='cavalo4'></div>
+
+    <!-- Painel de controle -->
+    <div class='painel'>
+        <button id="comecar">COMEÇAR!</button>
+        <div id="aposta">
+            <p>Dinheiro
+                <span id="dinheiro">100</span>
+            </p>
+            <label>Apostar ($)</label>
+            <input type="number" id="quantidade" value="0" min="1">
+            <label>No cavalo:</label>
+            <select id="apostacavalo">
+                <option value="1">1 Azul</option>
+                <option value="2">2 Rosa</option>
+                <option value="3">3 Amarelo</option>
+                <option value="4">4 Verde</option>
+            </select>
+        </div>
+</body>
+
+</html>
