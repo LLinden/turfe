@@ -234,7 +234,7 @@ function main() {
     apostacavalo = parseInt(document.getElementById('apostacavalo').value);
 
     // Toca música
-    var audio = new Audio('assets/sound/rossinioverture.ogg');
+    var audio = new Audio('/assets/sound/rossinioverture.ogg');
       audio.play();
 
     if (dinheiro < quantidade) {
@@ -261,19 +261,19 @@ dinheiro = JSON.parse(sessionStorage.getItem("salvadinheiro"));;
 }
 
 // Instancia cavalos do jogo
-var cavalo1 = new Cavalo("assets/images/cavalo1.png", 1, 10, 10);
+var cavalo1 = new Cavalo("/assets/images/cavalo1.png", 1, 10, 10);
 var cavalo1img = new Image();
 cavalo1img.src = cavalo1.src;
 
-var cavalo2 = new Cavalo("assets/images/cavalo2.png", 2, 10, 40);
+var cavalo2 = new Cavalo("/assets/images/cavalo2.png", 2, 10, 40);
 var cavalo2img = new Image();
 cavalo2img.src = cavalo2.src;
 
-var cavalo3 = new Cavalo("assets/images/cavalo3.png", 3, 10, 70);
+var cavalo3 = new Cavalo("/assets/images/cavalo3.png", 3, 10, 70);
 var cavalo3img = new Image();
 cavalo3img.src = cavalo3.src;
 
-var cavalo4 = new Cavalo("assets/images/cavalo4.png", 4, 10, 100);
+var cavalo4 = new Cavalo("/assets/images/cavalo4.png", 4, 10, 100);
 var cavalo4img = new Image();
 cavalo4img.src = cavalo4.src;
 

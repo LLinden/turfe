@@ -1,14 +1,15 @@
 #header {
-    position: absolute;
-    margin-left: 15vw;
+    margin: 0 auto;	
+    margin-top: 5vh;
+    text-align: center;
     font-family: 'Luckiest Guy', cursive;
     font-size: 40pt;
-    color: #b52424;
+    color: #abaaaa;
     top: 5vh;
 }
 
 body {
-    background-color:#e5e5e5;
+    background-color:#4a3e33;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -16,7 +17,7 @@ body {
     position: absolute; height: 30vh; width: 85vw; margin: 5vw;
     bottom: 40vh;
     margin-left: 6.8vw;
-    background-image: url('../images/fundo.png');
+    background-image: url('/assets/images/fundo.png');
 }
 
 #largada {
@@ -46,13 +47,12 @@ body {
 }
 
 .painel {
-	border-collapse: separate;
-	border-width: 0px;
-    position: absolute; height: 40vh; width: 85vw; margin: 5vw; margin-top: 50vh;
-    margin-left: 6.8vw;
-    align-items: center;
-    display: block;
-    justify-content: center;
+    height: 40vh; width: 85vw; 
+    margin: auto;
+	display: block;
+	text-align: center;    
+	margin-top: 45vh;
+	color: #abaaaa;
 }
 
 #comecar {
@@ -63,12 +63,10 @@ body {
     height: 10vh;
     border-style: solid;
     border-color: #b52424;
-    margin-left: 40%;
-    margin-top: 5vh;
+    color: #abaaaa;
 }
 
 #aposta {
-    margin-left: 25%;
     margin-top: 10vh;   
 }
 
